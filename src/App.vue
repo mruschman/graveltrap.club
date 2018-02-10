@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <OverallResults/>
+    <LatestResults/>
+    <Racers/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import OverallResults from './components/OverallResults';
+import LatestResults from './components/LatestResults';
+import Racers from './components/Racers';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    OverallResults,
+    LatestResults,
+    Racers,
   },
 };
 </script>
